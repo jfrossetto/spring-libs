@@ -1,0 +1,5 @@
+rootProject.name = 'spring-libs'
+include 'commons'
+include 'commons-api'
+include 'commons-r2dbc'
+
