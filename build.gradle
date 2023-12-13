@@ -75,7 +75,7 @@ subprojects {
                 url = "https://maven.pkg.github.com/jfrossetto/spring-libs"
                 credentials {
                     username = System.getenv("GITHUB_ACTOR")
-                    password = System.getenv("TOKEN")
+                    password = System.getenv("GITHUB_TOKEN")
                 }
             }
         }
